@@ -1,0 +1,31 @@
+Why Java? portability ->c/c++ src code run we have to use compiler normal code to machine code
+compiler and language also platform dependent main portability issue ->print,file,memory allocation
+ os apni ,system library compiled form mein deta hai  pointers,multiple inheritance,multiple memory
+ allocations and deallocations
+ windows=>writeToConsole()->different method of doing the same work
+ Mac=>Writethem()->different method of doing the same work
+
+ program->ISA(Instruction Set Architecture)->processor
+ different processors have different ISA
+ different processors have different transistors also
+
+
+ java is platform independent,simplicity and security
+ Source code .java-->Byte Code(Intermediate code)--> translator is JVM (Java Virtual Machine) assigned role to convert
+ byte code and then translate to  different machine and jvm is , and it is platform dependent and diff for diff machine
+ Write Once Run Anywhere (WORA)
+ Security--->Java Servlet (jsp) it works as an api in backend and java can be used in frontend also (Applets)
+ works in web browser bsaic frontend also java sandbox model wk restricted space pe run karte hai
+ Same concepts can be used to make platform independent->C#  and python done with as we have to work with hardware only.
+
+ .java-->Byte Code as it is a platform independent and jvm convert it into machine code as it is platform specific only
+ Convert Byte code to Machine code (Interpretor +JIT), SECURITY(SandBox Model), Garbage Collector
+ JRE->Java Runtime Enviornment->JVM+Class Libraries any operation we want to perform operation we have to call internal
+ libraries to do fucntions.
+ JDK->java Development Kit ->JRE+Compiler,Debuggers,javaDocs ->>Oracle + HomeBrew
+ INTERPRETOR->cONVERT CODE Line by line
+ Compiler->Convert Code all at once
+ .java--->Compiler--->ByteCode--->Interpretor--->Machine Code
+ Interpretor+Jit(Just In Time ) (compiler) for mordern Computers
+ run->javac demo.java || java demo
+
