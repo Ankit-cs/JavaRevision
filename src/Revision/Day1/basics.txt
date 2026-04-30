@@ -28,4 +28,20 @@ compiler and language also platform dependent main portability issue ->print,fil
  .java--->Compiler--->ByteCode--->Interpretor--->Machine Code
  Interpretor+Jit(Just In Time ) (compiler) for mordern Computers
  run->javac demo.java || java demo
+=====================================================================================
+How java stores negative numbers **IMP**
+=====================================================================================
 
+float f=0.7f
+sout(format:"%.20f%n",f)
+op->0.666699999659
+byte b=-42(-128--+128) 00101010 | 11010110 usin 2s complement as MSB bit is 1 is is -ve and LSB
+floating point number ->Sign Bit | Exponent | mantissa
+
+Automatic Type Promotion :
+byte a=50,b=40,c=100;
+int i=(a*b)/c as it will go beyond the range of byte so java automatically promote byte to int
+Rules for this Promotion
+1->Byte ,short,char values are promoted to int
+2->if one operand is long the whole expression will become long
+3->if one operand is double then entire expression is double
