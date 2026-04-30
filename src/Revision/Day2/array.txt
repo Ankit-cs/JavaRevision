@@ -1,0 +1,10 @@
+How array works contigious memory allocation
+primitive data types is in stack memory
+arr will be created in stack as it is reference variable and inn allocation is done in heap memory
+arr it does not directly holds the array as it a refernce to an array
+arr[3] =100+(4*3) => base add + (bytes*index)
+long,double  8 bytes,float 4 bytes,
+boolean not a fixed size as it assume to be 1 bit
+for better CPu oPTIMIzations boolean=1 byte
+ArrayIndexOuOfBoundException
+Random Acess->Caching register mein ho gya store
